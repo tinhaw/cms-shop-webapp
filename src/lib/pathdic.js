@@ -1,0 +1,15 @@
+export default {
+    '/home':'首页',
+    '/member':'会员',
+    '/shopcart':'购物车',
+    '/search':'搜索',
+    '/home/newslist':'新闻列表',
+    '/home/newsdetail/:news_id':'新闻详情',
+    '/home/piclist':'图片列表',
+    '/home/picdetail/:img_id':'图片详情',
+    '/home/goodslist':'商品列表',
+    '/home/goodsinfo/:id':'商品详情',
+    '/author/info':'作者简介',
+    '/author/projects':'作者项目列表',
+    '/author/instruction':'本项目说明',
+}

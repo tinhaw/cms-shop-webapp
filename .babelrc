@@ -1,0 +1,19 @@
+{
+    "presets": [
+        ["@babel/preset-env",
+            {
+                "loose":true
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        [
+            "component",
+              {
+                "libraryName": "mint-ui",
+                "style": true
+              }
+        ]
+    ]
+}
